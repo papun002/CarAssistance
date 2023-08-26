@@ -1,0 +1,94 @@
+.w-text {
+    color: white !important;
+}
+
+.a {
+    color: black !important;
+}
+
+.br {
+    border-radius: 0 0 0.6rem 0.6rem !important;
+}
+
+#my-file {
+    display: none;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+.bg-y{
+    background-color: #ffc107 !important;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+.bg-p{
+    background-color: var(--pink) !important;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+.bg-o{
+    background-color: #fd7e14 !important;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+.bg-r{
+    background-color: var(--red) !important;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+.bg-g {
+    background-color: #00CED1 !important;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+.bg-t{
+    background-color: var(--teal) !important;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+
+.pagination li:hover {
+    cursor: pointer;
+}
+
+.p-table {
+    float: right;
+    margin-right: 2rem;
+    gap: 11px;
+    margin-top: 1rem;
+    margin-top: 1rem;
+}
+
+.sr-only1 {
+    background: rgb(210, 211, 210);
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sr {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.7rem;
+    margin-top: -13px;
+}
+.p-table .active {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.7rem;
+    margin-top: -13px;
+    background: #00ffff59;
+
+}

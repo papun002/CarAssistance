@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  header {
+    background: #00795f;
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  /* a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  nav ul {
+    background-color: #43a286;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 20px;
+
+  }
+
+  nav ul li:hover {
+    background-color: #399077;
+  }
+
+  section {
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+  } */
+
+  p {
+    text-align: justify;
+  }
+
+  .handle {
+    width: 100%;
+    background: #005c48;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: white;
+    display: none
+  }
+
+  @media screen and (max-width:600px) {
+    nav ul {
+      max-height: 0;
+    }
+
+    .showing {
+      max-height: 20em;
+    }
+
+    nav ul li {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .handle {
+      display: block;
+    }
+
+    header {
+      height: 15vh;
+    }
+
+    header h1 {
+      padding: 21px;
+    }
+  }
+
+
+
+/* card */
+.card-category-4 {
+    padding: 0;
+    font-family: sans-serif;
+    /* margin-bottom: 45px; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card-category-4 .sp-card-2 {
+    width: 220px;
+    border: 1px solid #f9f9f9;
+    text-align: left;
+    margin-top: 1.5em;
+    margin-left:3em;
+    
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card-category-4 .sp-card-2 .overlap {
+    background: #3f51b57a;
+    width: inherit;
+    height: 0;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.card-category-4 .sp-card-2:hover .overlap {
+    opacity: 1;
+    height: 204px;
+}
+
+.card-category-4 .sp-card-2:hover .overlap .login_icon {
+    font-size: 20px;
+    color: black;
+}
+
+.card-category-4 .sp-card-2 .overlap a {
+    position: relative;
+    top: 50%;
+    text-decoration: none;
+    color: #673AB7;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #fff;
+}
+
+.card-category-4 .sp-card-2 .card-image {
+    text-align: center;
+}
+
+.card-category-4 .sp-card-2 .card-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-category-4 .sp-card-2 .card-image .icon {
+    height: 205px;
+    font-size: 100px;
+    color: black;
+}
+
+.card-category-4 .sp-card-2 .card-content {
+    padding: 20px;
+    font-weight: 600;
+    color: #673AB7;
+    text-align: center;
+    background-color: #5eada5;
+}
+
+.card-category-4 .sp-card-2 .card-content .card-title {
+    font-weight: 300;
+    font-size: medium;
+    font-variant-caps: all-petite-caps;
+    color: white;
+
+}
+
+.card-category-5 .all-pr-cards {
+    padding: 0;
+    float: right;
+    margin-right: 6em;
+}
+
+.card-category-5 .per-card-3 {
+    width: 85%;
+    height: 240px;
+    margin-top: 1em;
+
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-category-5 .per-card-3:hover .card-content .social-icons {
+    opacity: 1;
+    height: 100%;
+}
+
+.card-category-5 .per-card-3:hover .social-icons .card-btn {
+    bottom: 0px !important;
+
+    -webkit-animation: down-btn 1.5s;
+    -moz-animation: down-btn 1.5s;
+    -o-animation: down-btn 1.5s;
+    animation: down-btn 1.5s;
+}
+
+.card-category-5 .per-card-3 .card-image {
+    position: relative;
+    background: #009688;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.card-category-5 .per-card-3 .card-image img {
+    height: 90px;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.card-category-5 .per-card-3 .card-image .per-name {
+    position: absolute;
+    top: 40%;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card-category-5 .per-card-3 .card-content {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.card-category-5 .per-card-3 .card-content .per-position {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #009688;
+}
+
+.card-category-5 .per-card-3 .card-content .card-text {
+    padding: 10px;
+}
+
+.card-category-5 .per-card-3 .card-content .card-text span {
+    font-size: 13px;
+    color: #007368;
+}
+
+.card-category-5 .per-card-3 .card-content .social-icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    height: 0%;
+    background: #009688;
+    border-top: 1px solid #5eada5;
+    cursor: pointer;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.card-category-5 .per-card-3 .card-content .social-icons i {
+    margin: 15px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.card-category-5 .per-card-3 .card-content .social-icons i:hover {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.card-category-5 .per-card-3 .card-content .social-icons .card-btn {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-category-5 .per-card-3 .card-content .social-icons .card-btn button {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background: #03695f;
+    border: none;
+}
